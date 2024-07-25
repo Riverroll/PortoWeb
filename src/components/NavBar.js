@@ -52,7 +52,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/nauvaluzlah/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
                 <a href="https://www.instagram.com/riverwrks/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Instagram" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='#footer'>
                 <button className="vvd"><span>Contact Me</span></button>
               </HashLink>
             </span>
