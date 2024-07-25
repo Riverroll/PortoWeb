@@ -662,3 +662,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #4CAF50;
   color: #fff;
 }
+
+/* src/components/Warning.css */
+.warning {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000;
+}

@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Data Analyst", "UI/UX Designer" ];
+  const toRotate = ["Web Developer", "Data Analyst", "UI/UX Designer"];
   const period = 2000;
 
   useEffect(() => {
@@ -50,16 +50,16 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Uzlah |`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Data Analyst", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>{`Hi! I'm Uzlah |`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Data Analyst", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello, I'm Nauval Uzlah. As a frontend web developer and data analyst, I blend creativity with analytical skills. I craft intuitive user interfaces and extract meaningful insights from complex datasets. My passion lies in creating seamless digital experiences while leveraging data to drive informed decisions. I'm always eager to tackle new challenges and explore innovative technologies.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
+                  <button onClick={() => window.open('https://www.linkedin.com/in/nauvaluzlah/', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
