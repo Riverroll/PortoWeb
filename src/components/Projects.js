@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import certImg1 from "../assets/img/Cert-1.png";
 import certImg2 from "../assets/img/Cert-2.png";
 import certImg3 from "../assets/img/Cert-3.png";
@@ -26,34 +27,45 @@ export const Projects = () => {
       title: "PTSMS Data Management System",
       description: "Design & Development",
       imgUrl: projImg1,
+      url: "",
     },
     {
       title: "CLA Legal Website",
       description: "Design & Development",
       imgUrl: projImg2,
+      url: "https://client-cla-indonesia.vercel.app/",
     },
     {
       title: "Sales Dashboard",
       description: "Design & Development",
       imgUrl: projImg3,
+      url: "https://public.tableau.com/app/profile/nauval.uzlah/viz/DataPenjualan_17217891216290/Dashboard1?publish=yes",
     },
     {
       title: "Purwhadika Capstone 2",
       description: "Purwhadika",
       imgUrl: projImg4,
+      url: "https://github.com/Riverroll/PurwadhikaCapstone2.git",
     },
     {
       title: "Purwhadika Capstone 1",
       description: "Purwhadika",
       imgUrl: projImg5,
+      url: "https://github.com/Riverroll/PurwaDS.git",
     },
     {
-      title: "Purwhadika Capston 3",
+      title: "Purwhadika Capstone 3",
       description: "Purwhadika",
       imgUrl: projImg6,
+      url: "https://github.com/Riverroll/PurwhadikaCapstone3.git",
     },
-  ];
-
+    {
+      title: "Gemining Ai Chat",
+      description: "Coming Soon",
+      imgUrl: projImg7,
+      url: "https://gemining.vercel.app/",
+    },
+  ]
   const certificates = [
     {
       title: "Intro To Data Analytics",
